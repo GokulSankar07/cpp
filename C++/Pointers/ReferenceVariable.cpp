@@ -1,0 +1,12 @@
+// A reference variable is a another name for already existing variable
+// i.e a bucket having two names
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=10;
+    int &y=x;
+    cout<< x<<endl;
+    cout<< y<<endl;
+}
